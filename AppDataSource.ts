@@ -4,7 +4,7 @@ export const AppDataSource = new DataSource({
     host: 'localhost',
     type: 'mysql',
     username: 'root',
-    password: 'play2',
+    password: '',
     database: 'portfolio',
     port: 3306,
     entities: ['./entities/*.entity.ts'],
