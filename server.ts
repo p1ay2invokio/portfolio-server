@@ -3,7 +3,7 @@ import cors = require('cors')
 import dotenv = require('dotenv')
 import {Request, Response} from 'express'
 
-const messageRoute = require('./routes/messages.route')
+const messageRoute = require('./routes/messages.route.ts')
 const productRoute = require('./routes/products.route')
 
 const env = dotenv.config().parsed
